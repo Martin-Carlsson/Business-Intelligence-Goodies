@@ -28,6 +28,4 @@ SELECT
 	(DATEPART(dw,[Date])+ 5) % 7 + 1 AS DayInWeek 
 FROM 
 	DimDate 
-ORDER BY
-	[DATE] ASC
 OPTION (MAXRECURSION 10000);
