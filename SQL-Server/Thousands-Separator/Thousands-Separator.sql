@@ -1,0 +1,1 @@
+SELECT FORMAT(1000,'#,0');
