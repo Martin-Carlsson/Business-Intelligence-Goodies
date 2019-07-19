@@ -9,8 +9,14 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 
+Private StartTime As Double
+
 Sub Enable()
     Dim wks As Worksheet
+    
+    StartTime = Timer
+
+    Application.StatusBar = "Calculating..."
     Application.ScreenUpdating = False
     Application.DisplayStatusBar = True
     Application.Calculation = xlCalculationManual
@@ -22,14 +28,18 @@ Sub Enable()
 End Sub
 
 Private Sub Class_Terminate()
+    Application.StatusBar = False
     Application.ScreenUpdating = True
     Application.DisplayStatusBar = True
     Application.Calculation = xlCalculationAutomatic
     Application.EnableEvents = True
     Application.DisplayAlerts = True
-   ' If Err.Number <> 0 Then MsgBox "Error: (" & Err.Number & ") " & Err.Description, vbCritical
+    If Err.Number <> 0 Then MsgBox "Error: (" & Err.Number & ") " & Err.Description, vbCritical
+
+    Debug.Print "Seconds: " & Round(Timer - StartTime, 2)
 End Sub
 
 'On Error Resume Next
-'Dim SpeedUp As New clsSpeedUp: SpeedUp.Enable
+'Dim SpeedUp As New SpeedUp: SpeedUp.Enable
+
 
