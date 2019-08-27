@@ -1,5 +1,3 @@
---DROP TABLE [dbo].[dimDate];
-
 DECLARE @FirstDate DATE = '20160101';
 DECLARE @LastDate DATE = '20170101';
 
@@ -39,10 +37,21 @@ SELECT
 	DATEPART(MONTH, [Date]) AS [MaanedNummer],
 	DATEPART(WEEK, [Date]) AS [Uge],
 	DATEPART(DAY, [Date]) AS [Dag],
-	CAST(DATEADD(MONTH, DATEDIFF(MONTH, 0, [Date]), 0) AS DATE) AS FørsteDagIMaaned,
-	DATENAME(dw,[Date]) AS [UgeDag],
-	(DATEPART(dw,[Date])+ 5) % 7 + 1 AS [UgeDagNummer] 
+	CAST(DATEADD(MONTH, DATEDIFF(MONTH, 0, [Date]), 0) AS DATE) AS FoersteDagIMaaned,
+	EOMONTH([Date]) AS SidsteDagIMaaned,
+	DATEFROMPARTS(YEAR([Date]), 1, 1) AS FoersteDagIAar,
+	DATEFROMPARTS(YEAR([Date]), 12, 31) AS SidsteDagIAar,
+	CASE DATEPART(dw,[Date])
+		WHEN 1 THEN 'Søndag'
+		WHEN 2 THEN 'Mandag'
+		WHEN 3 THEN 'Tirsdag'
+		WHEN 4 THEN 'Onsdag'
+		WHEN 5 THEN 'Torsdag'
+		WHEN 6 THEN 'Fredag'
+		WHEN 7 THEN 'Lørdag'
+	END AS [UgeDag],
+	(DATEPART(dw,[Date])+ 5) % 7 + 1 AS [UgeDagNummer]
 	--INTO [dbo].[dimDate]
 FROM 
 	DimDate 
-OPTION (MAXRECURSION 10000);
+OPTION (MAXRECURSION 32767);
