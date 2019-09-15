@@ -18,6 +18,7 @@ AS
 )
 SELECT 
 	[Date] AS [Dato],
+	YEAR([Date]) * 10000 + MONTH([Date]) * 100 + DAY([Date]) AS DatoInteger,
 	YEAR([DATE]) AS [Aar],
 	DATEPART(QUARTER, [Date]) AS [Kvartal],
 	CASE DATENAME(M,[Date])
