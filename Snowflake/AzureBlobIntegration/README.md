@@ -34,12 +34,12 @@ desc storage integration AZURE_STORAGE_INT;
 ```
 Go to AZURE_CONSENT_URL
 
-Write down account name
+Write down AZURE_MULTI_TENANT_APP_NAME
 
 ## Add role for storage account
 Access Control (IAM) > Add role assignment
 
-*Role:* Storage Blob Data Contributor
+**Role:** Storage Blob Data Contributor
 
 # In Snowflake
 ## Create a stage
@@ -94,14 +94,14 @@ desc notification integration AZURE_NOTIFICATION_INT;
 ```
 Go to AZURE_CONSENT_URL
 
-Write down account name
+Write down app name
 
 # In Azure
 
 ## Give access
 Queues > Access Control (IAM) > Add role assignment
 
-*Role:* Storage Queue Data Contributor
+**Role:** Storage Queue Data Contributor
 
 ## Create eventgrid subscription
 
