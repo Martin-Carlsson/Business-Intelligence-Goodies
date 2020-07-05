@@ -29,11 +29,6 @@ Bold
 
 **Spacing before:** 12 pt.
 
-## Intercut, shot, slug lines
-Bold
-
-**Spacing before:** 12 pt.
-
 ## Action
 **Spacing before:** 12 pt.
 
