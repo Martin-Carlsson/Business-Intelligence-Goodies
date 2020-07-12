@@ -1,11 +1,16 @@
 # Formatting
 
-## Everything
-**Font:** Courier New, 12-point
+## Margin
 
 **Margin left:** 1.5 inch or 3.81 cm
 
 **Right, top, and bottom margin:** 1 inch or 2.54 cm
+
+## Base font
+
+**Font:** Courier New, 12-point
+
+**Font spacing:** 12-point before
 
 ## Line spacing
 *Go after approximately 55 lines per page*
