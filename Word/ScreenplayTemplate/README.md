@@ -12,13 +12,6 @@
 
 **Font spacing:** 12-point before
 
-## Line spacing
-*Go after approximately 55 lines per page*
-
-**On A4 paper size it is:**
-
-**On letter paper size it is:**
-
 ## Scene heading
 Header 1
 
