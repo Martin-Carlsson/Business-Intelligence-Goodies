@@ -10,7 +10,7 @@
 
 **Font:** Courier New, 12-point
 
-**Font spacing:** 12-point before
+**Font spacing before:** 12 pt.
 
 ## Scene heading
 Header 1
@@ -19,21 +19,18 @@ Numbered
 
 Bold
 
-**Spacing before:** 24 pt.
+**Font spacing before:** 24 pt.
 
 
 ## Sub header, Slug line, Shot, Inter cut
 Bold
 
-**Spacing before:** 12 pt.
 
 ## Action
-**Spacing before:** 12 pt.
+
 
 ## Character name, Extension
 Capitalized
-
-**Spacing before:** 12 pt.
 
 **Margin left:** 4 inch or 10.16 cm
 
