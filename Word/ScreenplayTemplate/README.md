@@ -46,12 +46,18 @@ Capitalized
 
 **Margin left:** 4 inch or 10.16 cm
 
+***Minus page margin:** 2.5 inch or 6,35 cm*
+
 ## Parenthetical
 
-**Margin left:** 3.4 inch or 8.89 cm
+**Margin left:** 3.5 inch or 8.89 cm
+
+***Minus page margin:** 2 inch or 5.08 cm*
 
 ## Dialog
 Margin left: 3 inch or 7.62 cm
+
+***Minus page margin:** 1.5 inch or 3.81 cm*
 
 ## Sub header, Slug line, Shot, Inter cut
 Bold
