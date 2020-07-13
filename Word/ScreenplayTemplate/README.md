@@ -58,6 +58,10 @@ Capitalized
 ## Dialog
 **Spacing before:** 0
 
+**Margin right:** 2 inch or 5.08 cm
+
+***Minus page margin:** 1 inch or 2.54 cm*
+
 **Margin left:** 3 inch or 7.62 cm
 
 ***Minus page margin:** 1.5 inch or 3.81 cm*
