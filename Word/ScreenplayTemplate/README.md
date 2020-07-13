@@ -46,7 +46,7 @@ Capitalized
 
 **Margin left:** 4 inch or 10.16 cm
 
-***Minus page margin:** 2.5 inch or 6,35 cm*
+***Minus page margin:** 2.5 inch or 6.35 cm*
 
 ## Parenthetical
 
