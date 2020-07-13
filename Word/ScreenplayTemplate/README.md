@@ -33,7 +33,13 @@ Numbered
 ## Action
 
 ## Capitalization, Character introduction
+
+**Style type:** Character
+
+**Style based on:** (underlying properties)
+
 Capitalized
+
 
 ## Character name, Extension
 Capitalized
