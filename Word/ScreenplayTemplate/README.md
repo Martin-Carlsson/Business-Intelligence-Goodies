@@ -49,6 +49,7 @@ Capitalized
 ***Minus page margin:** 2.5 inch or 6.35 cm*
 
 ## Parenthetical
+**Font spacing before:** 0
 
 **Margin left:** 3.5 inch or 8.89 cm
 
