@@ -55,6 +55,8 @@ Capitalized
 
 Align to right
 
+## Order Style Gallery
+
 ## Page numbers
 In page header
 
