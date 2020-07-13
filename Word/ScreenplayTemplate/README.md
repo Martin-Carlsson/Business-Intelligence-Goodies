@@ -20,23 +20,20 @@
 
 *Except Header 1*
 
-
 ## Scene heading
 Header 1
 
-Numbered
-
 Bold
+
+Numbered
 
 **Font spacing before:** 24 pt.
 
 
-## Sub header, Slug line, Shot, Inter cut
-Bold
-
-
 ## Action
 
+## Capitalization, Character introduction
+Capitalized
 
 ## Character name, Extension
 Capitalized
@@ -50,20 +47,18 @@ Capitalized
 ## Dialog
 Margin left: 3 inch or 7.62 cm
 
+## Sub header, Slug line, Shot, Inter cut
+Bold
+
 ## Transition
 Capitalized
 
 Align to right
 
-## Capitalization, Character introduction
-Capitalized
-
 ## Page numbers
 In page header
 
 Align to right
-
-**Top margin:** 0.5 inch or 1.27 cm
 
 ## Front page
 Title
