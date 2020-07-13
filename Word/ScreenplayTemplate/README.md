@@ -12,6 +12,11 @@
 
 **Font spacing before:** 12 pt.
 
+## Remove all default styles from Style Gallery
+
+*Except Header 1*
+
+
 ## Scene heading
 Header 1
 
