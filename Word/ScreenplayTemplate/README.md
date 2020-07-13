@@ -8,6 +8,8 @@
 
 ## Base font
 
+*Set **Normal** to:*
+
 **Font:** Courier New, 12-point
 
 **Font spacing before:** 12 pt.
