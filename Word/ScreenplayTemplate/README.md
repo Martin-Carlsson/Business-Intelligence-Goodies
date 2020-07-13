@@ -41,7 +41,7 @@ Numbered
 Capitalized
 
 
-## Character name, Extension
+## Character name
 Capitalized
 
 **Margin left:** 4 inch or 10.16 cm
@@ -75,6 +75,15 @@ Capitalized
 Align to right
 
 ## Order Style Gallery
+**Manage styles**
+
+1. Heading 1
+2. Sub header
+3. Action
+4. Capitalization
+5. Character name
+6. Parenthetical
+7. Transition
 
 ## Page numbers
 In page header
