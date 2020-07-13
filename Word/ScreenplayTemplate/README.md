@@ -12,7 +12,9 @@
 
 **Font:** Courier New, 12-point
 
-**Font spacing before:** 12 pt.
+**Spacing before:** 12 pt.
+
+**Line spacing:** Single
 
 ## Remove all default styles from Style Gallery
 
