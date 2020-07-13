@@ -83,7 +83,8 @@ Align to right
 4. Capitalization
 5. Character name
 6. Parenthetical
-7. Transition
+7. Dialog
+8. Transition
 
 ## Page numbers
 In page header
