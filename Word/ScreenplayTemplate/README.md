@@ -103,8 +103,3 @@ Contact information
 ## References and Table of Contents
 Table of content
 References
-
-# About screenplays
-https://www.studiobinder.com/blog/how-to-write-a-screenplay/
-
-https://www.storysense.com/format/montages.htm
