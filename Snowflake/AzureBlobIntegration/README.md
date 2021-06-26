@@ -69,11 +69,6 @@ create or replace stage azure_stage
   file_format = CSV_FF;
 ```
 
-## Use role sysadmin
-```SQL
-use role sysadmin;
-```
-
 ## Create an external table
 ```SQL
 create or replace external table
