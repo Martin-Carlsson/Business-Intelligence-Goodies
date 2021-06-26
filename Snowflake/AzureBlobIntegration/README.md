@@ -16,9 +16,13 @@ Upload TEST_FILE_1.csv
 Azure Active Directory > Properties > Directory ID
 
 # In Snowflake
-## Use role sysadmin
+## Switch context
 ```SQL
 use role sysadmin;
+create database if not exists dataload;
+create schema if not exists dataload.external_table;
+use database dataload; 
+use schema external_table;
 ```
 
 ## Create file format
@@ -65,13 +69,9 @@ create or replace stage azure_stage
   file_format = CSV_FF;
 ```
 
-## Switch context
+## Use role sysadmin
 ```SQL
 use role sysadmin;
-create database if not exists dataload;
-create schema if not exists dataload.external_table;
-use database dataload; 
-use schema external_table;
 ```
 
 ## Create an external table
