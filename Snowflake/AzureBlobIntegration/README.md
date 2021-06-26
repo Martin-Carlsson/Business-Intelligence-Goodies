@@ -65,6 +65,15 @@ create or replace stage azure_stage
   file_format = CSV_FF;
 ```
 
+## Switch context
+```SQL
+use role sysadmin;
+create database if not exists dataload;
+create schema if not exists dataload.external_table;
+use database dataload; 
+use schema external_table;
+```
+
 ## Create an external table
 ```SQL
 create or replace external table
