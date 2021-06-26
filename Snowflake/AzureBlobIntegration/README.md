@@ -79,6 +79,7 @@ use role sysadmin;
 create or replace external table
   TEST_TABLE
   LOCATION = @azure_stage/files/
+  AUTO_REFRESH = FALSE -- AUTO_REFRESH will be set to TRUE below
   FILE_FORMAT = CSV_FF;
 ```
 
