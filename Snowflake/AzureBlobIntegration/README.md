@@ -13,6 +13,11 @@ Upload TEST_FILE_1.csv
 Azure Active Directory > Properties > Directory ID
 
 # In Snowflake
+## Use role sysadmin for creation of every object
+```SQL
+use role sysadmin;
+```
+
 ## Create file format
 ```SQL
 CREATE FILE FORMAT CSV_FF TYPE = 'CSV' COMPRESSION = 'AUTO' FIELD_DELIMITER = ',' RECORD_DELIMITER = '\n' SKIP_HEADER = 0 FIELD_OPTIONALLY_ENCLOSED_BY = 'NONE' TRIM_SPACE = FALSE ERROR_ON_COLUMN_COUNT_MISMATCH = TRUE ESCAPE = 'NONE' ESCAPE_UNENCLOSED_FIELD = '\134' DATE_FORMAT = 'AUTO' TIMESTAMP_FORMAT = 'AUTO' NULL_IF = ('\\N');
