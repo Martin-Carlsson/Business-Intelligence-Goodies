@@ -1,3 +1,6 @@
+# Connect Azure blobstorage to Snowflake
+
+Video showing how to do it: https://www.youtube.com/watch?v=JMSxzrmzOB0
 
 # In Azure
 ## Create blob
@@ -45,6 +48,8 @@ desc storage integration AZURE_STORAGE_INT;
 Go to AZURE_CONSENT_URL
 
 Write down AZURE_MULTI_TENANT_APP_NAME
+
+# In Azure
 
 ## Add role for storage account
 Access Control (IAM) > Add role assignment
